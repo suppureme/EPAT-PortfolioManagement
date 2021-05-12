@@ -10,7 +10,7 @@ import sys
 import warnings
 import numpy as np
 import pandas as pd
-from . import base_optimizer
+import base_optimizer
 
 
 def market_implied_prior_returns(

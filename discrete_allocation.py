@@ -6,7 +6,7 @@ import collections
 import numpy as np
 import pandas as pd
 import cvxpy as cp
-from . import exceptions
+import exceptions
 
 
 def get_latest_prices(prices):
