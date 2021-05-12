@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import cvxpy as cp
 
-from .. import objective_functions, base_optimizer
+import objective_functions, base_optimizer
 
 
 class EfficientFrontier(base_optimizer.BaseConvexOptimizer):

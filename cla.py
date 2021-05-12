@@ -6,7 +6,7 @@ by Marcos Lopez de Prado and David Bailey.
 
 import numpy as np
 import pandas as pd
-from . import base_optimizer
+import base_optimizer
 
 
 class CLA(base_optimizer.BaseOptimizer):

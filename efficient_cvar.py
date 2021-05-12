@@ -7,8 +7,8 @@ import warnings
 import numpy as np
 import cvxpy as cp
 
-from .. import objective_functions
-from .efficient_frontier import EfficientFrontier
+import objective_functions
+from efficient_frontier import EfficientFrontier
 
 
 class EfficientCVaR(EfficientFrontier):
