@@ -18,7 +18,7 @@ import pandas as pd
 import scipy.cluster.hierarchy as sch
 import scipy.spatial.distance as ssd
 
-from . import base_optimizer, risk_models
+import base_optimizer, risk_models
 
 
 class HRPOpt(base_optimizer.BaseOptimizer):
