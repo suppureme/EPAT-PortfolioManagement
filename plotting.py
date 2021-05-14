@@ -66,7 +66,7 @@ def plot_covariance(cov_matrix, plot_correlation=False, show_tickers=True, **kwa
         matrix = risk_models.cov_to_corr(cov_matrix)
     else:
         matrix = cov_matrix
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(20,20))
 
     cax = ax.imshow(matrix)
     fig.colorbar(cax)
